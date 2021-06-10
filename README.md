@@ -1,4 +1,8 @@
 
+### Run in docker
+	docker build -t sundanny26/github-issues .
+	docker run --name python-issuer -d sundanny26/github-issues
+
 ### GitHub Issues Import ###
 
 This Python script allows you to import issues and pull requests from one repository to another; works even for private repositories, and if the two repositories are not related to each other in any way.
